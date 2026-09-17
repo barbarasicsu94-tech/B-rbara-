@@ -39,41 +39,6 @@ REELS = [
    [("Off masculino com aquele efeito de interfone:","E ver quele p\u00f4r do sol\u2026\nIsso s\u00f3 \u00e9 poss\u00edvel na Marina Evolution")]),
  ]),
 
- ("MARINA EVOLUTION | 3 Motivos para N\u00c3O Vir", "Vertical", "at\u00e9 35s", [
-  ("01","GANCHO",
-   "Ela andando pela Marina, falando direto na c\u00e2mera. C\u00e2mera acompanhando em movimento, passando pelo deck e pelas embarca\u00e7\u00f5es. Ritmo solto, energia alta.",
-   [("ON:","\u201cTr\u00eas motivos pra voc\u00ea N\u00c3O vir pra Marina Evolution neste fim de semana.\u201d")]),
-  ("02","MOTIVO 01",
-   "Ela chega na beira do deck e aponta pro rio. Corta para o p\u00f4r do sol no Rio Branco.",
-   [("ON:","\u201cUm: voc\u00ea vai amar o p\u00f4r do sol de Boa Vista daqui. Depois n\u00e3o vai querer ver de outro lugar nunca mais.\u201d")]),
-  ("03","MOTIVO 02",
-   "Ela passa pelo estacionamento das embarca\u00e7\u00f5es e encosta a m\u00e3o num jet. Corta para jet acelerando na \u00e1gua.",
-   [("ON:","\u201cDois: voc\u00ea vai amar andar de jet. A\u00ed \u00e9 altas aventuras no Rio Branco todo fim de semana.\u201d")]),
-  ("04","MOTIVO 03",
-   "Ela no deck, com a equipe descendo a embarca\u00e7\u00e3o pela rampa atr\u00e1s dela.",
-   [("ON:","\u201cE tr\u00eas: voc\u00ea vai amar chegar e j\u00e1 sair navegando, sem carreta e sem trabalho nenhum. Depois n\u00e3o tem volta.\u201d")]),
-  ("05","FECHAMENTO",
-   "Ela d\u00e1 de ombros, sorrindo, e senta no deck com o movimento normal da Marina atr\u00e1s.",
-   [("ON:","\u201cT\u00e1 avisado. Se mesmo assim voc\u00ea quiser vir, a gente te espera no s\u00e1bado.\u201d"),
-    ("TEXTO:","Marca aquele amigo que precisa ler isso")]),
- ]),
-
- ("MARINA EVOLUTION | O Ver\u00e3o de Roraima", "Vertical", "at\u00e9 30s", [
-  ("01","GANCHO",
-   "A Ponte dos Macuxis e o sol forte sobre o Rio Branco. O calor da cidade: asfalto quente, sombra curta, sol duro.",
-   [("OFF:","\u201cBoa Vista, o calor de sempre.\u201d"),
-    ("TEXTO:","38\u00b0")]),
-  ("02","O RIO",
-   "Jet cortando a \u00e1gua. Imagem a\u00e9rea do Rio Branco, com as praias come\u00e7ando a aparecer.",
-   [("OFF:","\u201c\u00c9 o rio baixando, a praia aparecendo, o motor pegando.\u201d")]),
-  ("03","AS PESSOAS",
-   "Grupo rindo dentro da lancha, crian\u00e7a de colete, brinde no deck do Campe\u00e3o Express.",
-   [("OFF:","\u201c\u00c9 todo mundo que voc\u00ea gosta no mesmo barco.\u201d")]),
-  ("04","FECHAMENTO",
-   "P\u00f4r do sol sobre o Rio Branco, embarca\u00e7\u00f5es ancoradas na Marina Evolution.",
-   [("OFF:","\u201cO ver\u00e3o de Roraima \u00e9 aqui.\u201d"),
-    ("TEXTO:","Marina Evolution")]),
- ]),
 ]
 
 CSS = """
