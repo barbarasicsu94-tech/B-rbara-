@@ -24,19 +24,19 @@ REELS = [
     ("TEXTO NA TELA:","MARINA EVOLUTION\nSeu porto seguro. \u2693\U0001F30A")]),
  ]),
 
- ("MARINA EVOLUTION | Sexta-feira, 17h42", "Horizontal", "at\u00e9 30s", [
-  ("01","GANCHO",
-   "Abre no p\u00f4r do sol visto da Ponte dos Macuxis, sobre o Rio Branco. Corta para o close em slow-mo do gelo caindo dentro da caixa t\u00e9rmica. Som real amplificado.",
-   [("TEXTO:","Sexta-feira, 17h42.")]),
-  ("02","A MARINA",
-   "Estacionamento da Marina com as lanchas e os jets guardados. Equipe tirando o jet da vaga e descendo pela rampa.",
-   [("OFF:","\u201cSem carreta. Sem fila. Sem preocupa\u00e7\u00f5es.\u201d")]),
-  ("03","NA \u00c1GUA",
-   "Cortes r\u00e1pidos: jet cortando a \u00e1gua, rastro branco no rio, imagem a\u00e9rea do Rio Branco no fim da tarde.",
-   [("\u2014","Sem locu\u00e7\u00e3o. Trilha e som real de motor e vento.")]),
-  ("04","FECHAMENTO",
-   "P\u00f4r do sol. Caixa t\u00e9rmica aberta no deck do Campe\u00e3o Express, embarca\u00e7\u00f5es ancoradas ao fundo.",
-   [("OFF:","\u201cSegunda-feira chega igual pra todo mundo. O s\u00e1bado, n\u00e3o.\u201d")]),
+ ("REELS 02", "Horizontal", "at\u00e9 30s", [
+  ("01","",
+   "Imagem da Marina horizontal com estilo de edi\u00e7\u00e3o vintage.",
+   [("Texto em tela:","Sexta - feira, 17:42")]),
+  ("02","",
+   "Transiciona a edi\u00e7\u00e3o para algo mais moderno. Cortes de um jet descendo ou cenas do estacionamento delas.",
+   [("Off masculino com aquele efeito de interfone:","Hora de navegar")]),
+  ("03","",
+   "Cortes de cenas de jet na \u00e1gua, passeio e cenas respiros da natureza ali pr\u00f3ximo do Rio Branco. Por exemplo (\u00e1rvores, mirante, p\u00e1ssaros).",
+   [("Off masculino com aquele efeito de interfone:","contemplar a natureza")]),
+  ("04","",
+   "Cena do p\u00f4r do sol pr\u00f3ximo a ponte do Rio Branco ou pr\u00f3ximo da Marina.\nFinaliza com assinatura.",
+   [("Off masculino com aquele efeito de interfone:","E ver quele p\u00f4r do sol\u2026\nIsso s\u00f3 \u00e9 poss\u00edvel na Marina Evolution")]),
  ]),
 
  ("MARINA EVOLUTION | 3 Motivos para N\u00c3O Vir", "Vertical", "at\u00e9 35s", [
@@ -114,7 +114,7 @@ def page(titulo, orient, dur, cenas):
             for t, x in falas)
         rows.append(
             '<tr><td class="n">%s</td>'
-            '<td><span class="lbl">%s</span>%s</td>'
+            '<td>%s%s</td>'
             '<td>%s</td></tr>' % (n, html.escape(lbl), html.escape(desc), fal))
     return """
 <div class="page">
