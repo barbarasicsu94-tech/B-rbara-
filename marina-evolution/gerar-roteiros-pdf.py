@@ -8,25 +8,20 @@ FTR = b64(OUT+"/assets/honey-footer.png")
 
 # ---- conteudo: (titulo, duracao, [ (n, rotulo, descricao, [(tag,texto),...]) ] )
 REELS = [
- ("MARINA EVOLUTION | A Marina por Inteiro", "Vertical", "at\u00e9 45s", [
-  ("01","ABERTURA A\u00c9REA",
-   "Drone chegando pelo Rio Branco e revelando a Marina Evolution inteira: a estrutura, o deck, a rampa e as embarca\u00e7\u00f5es na \u00e1gua.",
-   [("OFF:","\u201cIsso aqui \u00e9 a Marina Evolution, na beira do Rio Branco, em Boa Vista.\u201d")]),
-  ("02","A GUARDA",
-   "Travelling pelo estacionamento coberto: fileira de lanchas e jets guardados lado a lado, organizados e protegidos. Planos fechados nos cascos alinhados.",
-   [("OFF:","\u201c\u00c9 aqui que a sua lancha e o seu jet ficam guardados. Cobertos, secos, cada um na sua vaga.\u201d"),
-    ("TEXTO:","GUARDA DE LANCHAS E JET SKIS")]),
-  ("03","A OPERA\u00c7\u00c3O",
-   "Equipe manobrando: jet saindo da vaga, descendo pela rampa e entrando na \u00e1gua. Mostrar o trabalho sendo feito, do galp\u00e3o at\u00e9 o rio.",
-   [("OFF:","\u201cVoc\u00ea n\u00e3o engata carreta, n\u00e3o pega fila e n\u00e3o desce nada. A equipe tira da vaga e coloca na \u00e1gua pra voc\u00ea.\u201d"),
-    ("TEXTO:","RAMPA E MANOBRA INCLU\u00cdDAS")]),
-  ("04","NA \u00c1GUA",
-   "Embarca\u00e7\u00f5es saindo da Marina. Imagem a\u00e9rea acompanhando o jet e a lancha abrindo \u00e1gua no Rio Branco.",
-   [("OFF:","\u201cQuando voc\u00ea chega, ela j\u00e1 est\u00e1 pronta. Voc\u00ea s\u00f3 liga e sai navegando.\u201d")]),
-  ("05","FECHAMENTO",
-   "Drone alto fechando sobre a Marina e o rio no fim da tarde: embarca\u00e7\u00f5es ancoradas, movimento no deck e a estrutura completa em quadro.",
-   [("OFF:","\u201cMarina Evolution. Estrutura, guarda e assist\u00eancia no mesmo lugar.\u201d"),
-    ("TEXTO:","Rua Marina do Rio Branco, 214 \u2014 Canarinho, Boa Vista/RR")]),
+ ("REELS 01 \u2014 PATRIM\u00d4NIO N\u00c1UTICO PROTEGIDO", "Vertical", "at\u00e9 45s", [
+  ("01","ABERTURA",
+   "Imagens externas da Marina + jets e embarca\u00e7\u00f5es.",
+   [("OFF:","\u201cSeu jet ou sua lancha \u00e9 muito mais do que uma embarca\u00e7\u00e3o. \u00c9 um patrim\u00f4nio.\u201d")]),
+  ("02","ESTRUTURA",
+   "Mostrar chegada da embarca\u00e7\u00e3o, acesso e estrutura da Marina.",
+   [("OFF:","\u201cE para cuidar desse patrim\u00f4nio, voc\u00ea precisa de um lugar preparado para isso.\u201d")]),
+  ("03","CUIDADOS E SEGURAN\u00c7A",
+   "Mostrar detalhes da estrutura, armazenamento, limpeza, equipe e demais diferenciais dispon\u00edveis.",
+   [("OFF:","\u201cNa Marina Evolution, sua embarca\u00e7\u00e3o conta com estrutura, tecnologia e seguran\u00e7a para estar sempre bem cuidada e pronta para o pr\u00f3ximo passeio.\u201d")]),
+  ("04","FECHAMENTO",
+   "Embarca\u00e7\u00e3o saindo da Marina + imagens da \u00e1gua.",
+   [("OFF:","\u201cPorque quando sua embarca\u00e7\u00e3o est\u00e1 em boas m\u00e3os, voc\u00ea s\u00f3 precisa se preocupar com uma coisa: aproveitar a pr\u00f3xima aventura.\u201d"),
+    ("TEXTO NA TELA:","MARINA EVOLUTION\nSeu porto seguro. \u2693\U0001F30A")]),
  ]),
 
  ("MARINA EVOLUTION | Sexta-feira, 17h42", "Horizontal", "at\u00e9 30s", [
@@ -115,7 +110,7 @@ def page(titulo, orient, dur, cenas):
     rows = []
     for n, lbl, desc, falas in cenas:
         fal = "".join(
-            '<div class="ln"><span class="tag">%s</span> %s</div>' % (html.escape(t), html.escape(x))
+            '<div class="ln"><span class="tag">%s</span> %s</div>' % (html.escape(t), html.escape(x).replace('\n','<br>'))
             for t, x in falas)
         rows.append(
             '<tr><td class="n">%s</td>'
@@ -128,7 +123,7 @@ def page(titulo, orient, dur, cenas):
   <div class="body">
     <div class="t1">ROTEIRO DE</div>
     <div class="t2">GRAVAÇÃO</div>
-    <div class="sub">REELS — %s</div>
+    <div class="sub">%s</div>
     <div class="fmt"><b>Formato:</b> %s | %s | <b>Cliente:</b> Marina Evolution</div>
     <div class="chk">CHECKLIST GRAVAÇÃO</div>
     <div class="chki">Foto Capa | Off | Bastidores</div>
@@ -138,7 +133,7 @@ def page(titulo, orient, dur, cenas):
       %s
     </table>
   </div>
-</div>""" % (HDR, FTR, html.escape(titulo), html.escape(orient), html.escape(dur), "\n      ".join(rows))
+</div>""" % (HDR, FTR, html.escape(titulo if titulo.startswith("REELS") else u"REELS \u2014 "+titulo), html.escape(orient), html.escape(dur), "\n      ".join(rows))
 
 doc = "<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'>" \
       "<title>Roteiro de Gravação — Marina Evolution</title><style>%s</style></head><body>%s</body></html>" % (
