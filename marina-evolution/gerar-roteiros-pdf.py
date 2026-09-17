@@ -8,83 +8,76 @@ FTR = b64(OUT+"/assets/honey-footer.png")
 
 # ---- conteudo: (titulo, duracao, [ (n, rotulo, descricao, [(tag,texto),...]) ] )
 REELS = [
- ("MARINA EVOLUTION | A Chave", "até 50s", [
-  ("01","GANCHO",
-   "Close macro: a chave do jet cai em slow-mo na palma da mão aberta. Sol duro, fundo desfocado com o brilho da água. Som real, sem trilha.",
-   [("OFF:","“Essa chave é a parte fácil.”")]),
-  ("02","O PROBLEMA",
-   "Quintal comum de Boa Vista: carreta parada, lona desbotada com folha seca, pneu murcho, ferrugem no engate. Câmera baixa, sol estourado.",
-   [("OFF:","“Difícil é manter o que ela liga valendo o que você pagou. Sol de Boa Vista não perdoa gelcoat. Chuva de maio não pede licença. E carreta parada no quintal enferruja em silêncio.”"),
-    ("TEXTO:","8 meses parada.")]),
-  ("03","A VIRADA",
-   "Travelling entrando na guarda: fileira de jets e lanchas alinhados e cobertos. Drone baixo passando por cima. A trilha abre.",
-   [("OFF:","“Aqui ela não dorme no tempo. Dorme coberta, seca, na vaga dela.”"),
-    ("TEXTO:","GUARDA COBERTA")]),
-  ("04","A PROVA",
-   "Oficina em três planos: ferramenta original apertando, tela de diagnóstico, técnico fechando a tampa do motor. Corta para a rampa, jet descendo pela equipe.",
-   [("OFF:","“E acorda revisada por quem foi treinado pela fábrica. Concessionária autorizada BRP: Sea-Doo, Can-Am, Focker e Mercury. Peça original, ferramenta original, técnico certificado.”"),
-    ("TEXTO:","CONCESSIONÁRIA AUTORIZADA BRP")]),
+ ("MARINA EVOLUTION | A Marina por Inteiro", "Vertical", "at\u00e9 45s", [
+  ("01","ABERTURA A\u00c9REA",
+   "Drone chegando pelo Rio Branco e revelando a Marina Evolution inteira: a estrutura, o deck, a rampa e as embarca\u00e7\u00f5es na \u00e1gua.",
+   [("OFF:","\u201cIsso aqui \u00e9 a Marina Evolution, na beira do Rio Branco, em Boa Vista.\u201d")]),
+  ("02","A GUARDA",
+   "Travelling pelo estacionamento coberto: fileira de lanchas e jets guardados lado a lado, organizados e protegidos. Planos fechados nos cascos alinhados.",
+   [("OFF:","\u201c\u00c9 aqui que a sua lancha e o seu jet ficam guardados. Cobertos, secos, cada um na sua vaga.\u201d"),
+    ("TEXTO:","GUARDA DE LANCHAS E JET SKIS")]),
+  ("03","A OPERA\u00c7\u00c3O",
+   "Equipe manobrando: jet saindo da vaga, descendo pela rampa e entrando na \u00e1gua. Mostrar o trabalho sendo feito, do galp\u00e3o at\u00e9 o rio.",
+   [("OFF:","\u201cVoc\u00ea n\u00e3o engata carreta, n\u00e3o pega fila e n\u00e3o desce nada. A equipe tira da vaga e coloca na \u00e1gua pra voc\u00ea.\u201d"),
+    ("TEXTO:","RAMPA E MANOBRA INCLU\u00cdDAS")]),
+  ("04","NA \u00c1GUA",
+   "Embarca\u00e7\u00f5es saindo da Marina. Imagem a\u00e9rea acompanhando o jet e a lancha abrindo \u00e1gua no Rio Branco.",
+   [("OFF:","\u201cQuando voc\u00ea chega, ela j\u00e1 est\u00e1 pronta. Voc\u00ea s\u00f3 liga e sai navegando.\u201d")]),
   ("05","FECHAMENTO",
-   "Cliente chega, pega a chave no quadro. Corta: já está no jet, motor ligando. Drone abre revelando o Rio Branco.",
-   [("OFF:","“Você chega e sai navegando. O resto é com a gente.”"),
-    ("TEXTO:","A temporada abre em outubro. As vagas, não esperam ela abrir.")]),
+   "Drone alto fechando sobre a Marina e o rio no fim da tarde: embarca\u00e7\u00f5es ancoradas, movimento no deck e a estrutura completa em quadro.",
+   [("OFF:","\u201cMarina Evolution. Estrutura, guarda e assist\u00eancia no mesmo lugar.\u201d"),
+    ("TEXTO:","Rua Marina do Rio Branco, 214 \u2014 Canarinho, Boa Vista/RR")]),
  ]),
 
- ("MARINA EVOLUTION | Sexta, 17h42", "até 35s", [
+ ("MARINA EVOLUTION | Sexta-feira, 17h42", "Horizontal", "at\u00e9 30s", [
   ("01","GANCHO",
-   "Close extremo em slow-mo: gelo caindo dentro da caixa térmica. Gotas, vapor frio, luz lateral de fim de tarde. Som real amplificado, sem trilha.",
-   [("TEXTO:","Sexta-feira. 17h42.")]),
-  ("02","PREPARAÇÃO",
-   "Cortes rápidos no tempo da batida, todos em close: colete saindo do gancho, protetor solar no ombro, óculos escuros descendo, chinelo batendo no chão, a chave girando no dedo.",
-   [("—","Sem locução. Trilha e som real de cada corte.")]),
-  ("03","CHEGADA",
-   "Portão da Marina abrindo. Equipe descendo o jet pela rampa. Aperto de mão. Motor pegando — close na água saindo do escapamento.",
-   [("TEXTO:","Sem carreta. Sem fila. Sem lavar depois.")]),
-  ("04","ÁGUA",
-   "Explosão de movimento: jet acelerando, rastro branco no Rio Branco, drone acompanhando de lado, respingo na lente, grupo passando junto e rindo. Sol baixo e dourado.",
-   [("—","Trilha no auge, motor e vento.")]),
-  ("05","FECHAMENTO",
-   "Pôr do sol. Caixa térmica aberta no deck do Campeão Express, duas latas suando. Ao fundo, desfocadas, as embarcações e as pessoas conversando.",
-   [("OFF:","“Segunda-feira chega igual pra todo mundo. O sábado, não.”")]),
+   "Abre no p\u00f4r do sol visto da Ponte dos Macuxis, sobre o Rio Branco. Corta para o close em slow-mo do gelo caindo dentro da caixa t\u00e9rmica. Som real amplificado.",
+   [("TEXTO:","Sexta-feira, 17h42.")]),
+  ("02","A MARINA",
+   "Estacionamento da Marina com as lanchas e os jets guardados. Equipe tirando o jet da vaga e descendo pela rampa.",
+   [("OFF:","\u201cSem carreta. Sem fila. Sem preocupa\u00e7\u00f5es.\u201d")]),
+  ("03","NA \u00c1GUA",
+   "Cortes r\u00e1pidos: jet cortando a \u00e1gua, rastro branco no rio, imagem a\u00e9rea do Rio Branco no fim da tarde.",
+   [("\u2014","Sem locu\u00e7\u00e3o. Trilha e som real de motor e vento.")]),
+  ("04","FECHAMENTO",
+   "P\u00f4r do sol. Caixa t\u00e9rmica aberta no deck do Campe\u00e3o Express, embarca\u00e7\u00f5es ancoradas ao fundo.",
+   [("OFF:","\u201cSegunda-feira chega igual pra todo mundo. O s\u00e1bado, n\u00e3o.\u201d")]),
  ]),
 
- ("MARINA EVOLUTION | 3 Motivos para NÃO Vir", "até 35s", [
+ ("MARINA EVOLUTION | 3 Motivos para N\u00c3O Vir", "Vertical", "at\u00e9 35s", [
   ("01","GANCHO",
-   "Personagem em pé no deck, de costas para o rio, segurando três cartelas de papel. Câmera na mão, levemente instável — proposital.",
-   [("ON:","“Três motivos pra você NÃO vir pra Marina Evolution neste fim de semana.”"),
-    ("TEXTO:","3 motivos para NÃO vir")]),
+   "Ela andando pela Marina, falando direto na c\u00e2mera. C\u00e2mera acompanhando em movimento, passando pelo deck e pelas embarca\u00e7\u00f5es. Ritmo solto, energia alta.",
+   [("ON:","\u201cTr\u00eas motivos pra voc\u00ea N\u00c3O vir pra Marina Evolution neste fim de semana.\u201d")]),
   ("02","MOTIVO 01",
-   "Cartela 1 na câmera. Atrás dele, jet passando. Na frase, corta para corredor de shopping / ar-condicionado pingando. Ele joga a cartela fora do quadro e o corte acontece no movimento.",
-   [("ON:","“Um: você ama passar o sábado no shopping. No mesmo ar-condicionado de segunda a sexta.”")]),
+   "Ela chega na beira do deck e aponta pro rio. Corta para o p\u00f4r do sol no Rio Branco.",
+   [("ON:","\u201cUm: voc\u00ea vai amar o p\u00f4r do sol de Boa Vista daqui. Depois n\u00e3o vai querer ver de outro lugar nunca mais.\u201d")]),
   ("03","MOTIVO 02",
-   "Cartela 2. B-roll sofrido: alguém suando pra engatar carreta, fila de carretas na rampa, mangueira lavando jet no escuro.",
-   [("ON:","“Dois: pra você, engatar carreta, pegar fila na rampa e lavar o jet às seis da tarde... é lazer.”")]),
+   "Ela passa pelo estacionamento das embarca\u00e7\u00f5es e encosta a m\u00e3o num jet. Corta para jet acelerando na \u00e1gua.",
+   [("ON:","\u201cDois: voc\u00ea vai amar andar de jet. A\u00ed \u00e9 altas aventuras no Rio Branco todo fim de semana.\u201d")]),
   ("04","MOTIVO 03",
-   "Cartela 3. Na metade da frase a câmera gira dele para o pôr do sol no Rio Branco — o plano mais bonito do banco, 2 segundos inteiros sem corte.",
-   [("ON:","“E três: você acha que pôr do sol no Rio Branco é exagero da internet.”")]),
+   "Ela no deck, com a equipe descendo a embarca\u00e7\u00e3o pela rampa atr\u00e1s dela.",
+   [("ON:","\u201cE tr\u00eas: voc\u00ea vai amar chegar e j\u00e1 sair navegando, sem carreta e sem trabalho nenhum. Depois n\u00e3o tem volta.\u201d")]),
   ("05","FECHAMENTO",
-   "Ele sem cartela nenhuma, dá de ombros. Atrás, o movimento normal da marina.",
-   [("ON:","“Se você não se identificou com nenhum... a gente te espera sábado.”"),
+   "Ela d\u00e1 de ombros, sorrindo, e senta no deck com o movimento normal da Marina atr\u00e1s.",
+   [("ON:","\u201cT\u00e1 avisado. Se mesmo assim voc\u00ea quiser vir, a gente te espera no s\u00e1bado.\u201d"),
     ("TEXTO:","Marca aquele amigo que precisa ler isso")]),
  ]),
 
- ("MARINA EVOLUTION | O Verão Aqui é um Lugar", "até 30s", [
+ ("MARINA EVOLUTION | O Ver\u00e3o de Roraima", "Vertical", "at\u00e9 30s", [
   ("01","GANCHO",
-   "A cidade em setembro: asfalto tremendo de calor em teleobjetiva, sol duro, ventilador girando, sombra curta. Planos parados e pesados. Alguém mergulha e o respingo toma a tela.",
-   [("OFF:","“Tem cidade onde o verão é uma estação.”"),
-    ("TEXTO:","Boa Vista, 38°.")]),
-  ("02","EXPLOSÃO",
-   "Rajada de cortes de meio segundo: motor pegando, pé descalço no deck, corda sendo soltada, rastro branco na água, drone subindo do rio, respingo na lente.",
-   [("OFF:","“Aqui, o verão é um lugar.”")]),
+   "A Ponte dos Macuxis e o sol forte sobre o Rio Branco. O calor da cidade: asfalto quente, sombra curta, sol duro.",
+   [("OFF:","\u201cBoa Vista, o calor de sempre.\u201d"),
+    ("TEXTO:","38\u00b0")]),
+  ("02","O RIO",
+   "Jet cortando a \u00e1gua. Imagem a\u00e9rea do Rio Branco, com as praias come\u00e7ando a aparecer.",
+   [("OFF:","\u201c\u00c9 o rio baixando, a praia aparecendo, o motor pegando.\u201d")]),
   ("03","AS PESSOAS",
-   "Bloco humano, mais quente e mais lento: grupo rindo dentro da lancha, criança de colete sendo erguida, brinde no deck do Campeão Express, alguém puxando o outro pra dentro da água.",
-   [("OFF:","“É o rio baixando, a praia aparecendo, o motor pegando.”")]),
-  ("04","VELOCIDADE",
-   "Bloco de adrenalina: jet cortando em curva fechada, lancha de frente abrindo água, drone alto revelando a frota em formação no Rio Branco, sol atravessando o respingo em contraluz.",
-   [("OFF:","“E todo mundo que você gosta no mesmo barco.”")]),
-  ("05","ASSINATURA",
-   "Pôr do sol amplo sobre o Rio Branco, silhuetas das embarcações ancoradas na Marina. Plano fixo, longo, sem corte. Só ambiente.",
-   [("OFF:","“Verão em Roraima é na água. E a água começa aqui.”")]),
+   "Grupo rindo dentro da lancha, crian\u00e7a de colete, brinde no deck do Campe\u00e3o Express.",
+   [("OFF:","\u201c\u00c9 todo mundo que voc\u00ea gosta no mesmo barco.\u201d")]),
+  ("04","FECHAMENTO",
+   "P\u00f4r do sol sobre o Rio Branco, embarca\u00e7\u00f5es ancoradas na Marina Evolution.",
+   [("OFF:","\u201cO ver\u00e3o de Roraima \u00e9 aqui.\u201d"),
+    ("TEXTO:","Marina Evolution")]),
  ]),
 ]
 
@@ -118,7 +111,7 @@ td.n { text-align:center; font-size:11.04pt; }
 .ln:last-child { margin-bottom:0; }
 """
 
-def page(titulo, dur, cenas):
+def page(titulo, orient, dur, cenas):
     rows = []
     for n, lbl, desc, falas in cenas:
         fal = "".join(
@@ -136,7 +129,7 @@ def page(titulo, dur, cenas):
     <div class="t1">ROTEIRO DE</div>
     <div class="t2">GRAVAÇÃO</div>
     <div class="sub">REELS — %s</div>
-    <div class="fmt"><b>Formato:</b> Vertical | %s | <b>Cliente:</b> Marina Evolution</div>
+    <div class="fmt"><b>Formato:</b> %s | %s | <b>Cliente:</b> Marina Evolution</div>
     <div class="chk">CHECKLIST GRAVAÇÃO</div>
     <div class="chki">Foto Capa | Off | Bastidores</div>
     <table>
@@ -145,7 +138,7 @@ def page(titulo, dur, cenas):
       %s
     </table>
   </div>
-</div>""" % (HDR, FTR, html.escape(titulo), html.escape(dur), "\n      ".join(rows))
+</div>""" % (HDR, FTR, html.escape(titulo), html.escape(orient), html.escape(dur), "\n      ".join(rows))
 
 doc = "<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'>" \
       "<title>Roteiro de Gravação — Marina Evolution</title><style>%s</style></head><body>%s</body></html>" % (
