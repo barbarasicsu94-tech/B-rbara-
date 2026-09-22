@@ -10,11 +10,11 @@ PAGINAS = [
  (u"VT CAMBARÁ — 15 SEGUNDOS", u"Vertical | 15 segundos", CLIENTE, [
   ("01", u"",
    u"Funcionários juntos, animados, com balões e confetes.",
-   [(u"TODOS:", u"“Mês de celebrar com ofertas especiais na Cambará!”")]),
+   [(u"TODOS:", u"Mês de celebrar com ofertas especiais na Cambará!")]),
   ("02", u"",
    u"Confete estoura → corte para os cartelados.",
-   [(u"OFF:", u"“O aniversário é da Cambará, mas o presente é seu: "
-              u"compre e parcele em até 15 vezes sem juros no cartão!”")]),
+   [(u"OFF:", u"O aniversário é da Cambará, mas o presente é seu: "
+              u"compre e parcele em até 15 vezes sem juros no cartão!")]),
   ("", u"",
    u"[ASSINATURA CAMBARÁ — 3 a 4s]",
    []),
