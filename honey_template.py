@@ -46,6 +46,9 @@ td { font-size:9.2pt; line-height:1.30; }
 td.n { text-align:center; font-size:11.04pt; }
 .lbl { font-weight:bold; color:#FF7502; font-size:10.2pt; display:block; margin-bottom:2.5pt; }
 .tag { font-weight:bold; color:#FF0000; }
+.page.compacta td { font-size:8.2pt; line-height:1.26; }
+.page.compacta th, .page.compacta td { padding:2.6pt 5.1pt; }
+.page.compacta .lbl { font-size:9.2pt; margin-bottom:2pt; }
 .ln  { margin-bottom:3pt; }
 .ln:last-child { margin-bottom:0; }
 """
@@ -53,7 +56,7 @@ td.n { text-align:center; font-size:11.04pt; }
 def _txt(s):
     return html.escape(s).replace("\n", "<br>")
 
-def pagina(titulo, formato, cliente, cenas):
+def pagina(titulo, formato, cliente, cenas, compacta=False):
     linhas = []
     for n, lbl, desc, falas in cenas:
         fal = "".join('<div class="ln"><span class="tag">%s</span> %s</div>'
@@ -62,7 +65,7 @@ def pagina(titulo, formato, cliente, cenas):
         linhas.append('<tr><td class="n">%s</td><td>%s%s</td><td>%s</td></tr>'
                       % (n, rot, _txt(desc), fal))
     return """
-<div class="page">
+<div class="page%s">
   <img class="hdr" src="data:image/png;base64,%s">
   <img class="ftr" src="data:image/png;base64,%s">
   <div class="body">
@@ -78,7 +81,7 @@ def pagina(titulo, formato, cliente, cenas):
       %s
     </table>
   </div>
-</div>""" % (HDR, FTR, _txt(titulo), _txt(formato), _txt(cliente),
+</div>""" % (" compacta" if compacta else "", HDR, FTR, _txt(titulo), _txt(formato), _txt(cliente),
              "\n      ".join(linhas))
 
 def montar(paginas, titulo_doc, saida):
