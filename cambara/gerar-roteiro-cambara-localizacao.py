@@ -55,15 +55,21 @@ PAGINAS = [
    u"da cidade, o caminho at\u00e9 a loja, a placa da rua e a fachada da Cambar\u00e1. Setas e "
    u"lettering marcando o trajeto. A est\u00e1tua segue ali, discreta, no canto do quadro.",
    [(AUD, u"Mas n\u00e3o esquece de falar o endere\u00e7o certinho, viu?"),
-    (TELA, u"Rua Arist\u00f3teles Carneiro, 147 \u2014 Cambar\u00e1")]),
+    (TELA, u"Rua Arist\u00f3teles Carneiro, 147 \u2014 Bairro Cambar\u00e1")]),
 
-  ("07", u"FECHAMENTO",
-   u"Volta pra tela do WhatsApp. Aparece \u201cdigitando\u2026\u201d e entra a resposta da "
-   u"equipe. Corta para plano aberto da fachada com a assinatura da Cambar\u00e1 \u2014 e a "
-   u"est\u00e1tua ainda parada l\u00e1 na cal\u00e7ada, no \u00faltimo quadro.",
-   [(AUD, u"Ficou bom assim?"),
-    (TELA, u"Resposta no chat: Ficou \u00f3tima, Weiza. J\u00e1 t\u00e1 no ar.\n"
-           u"Assinatura: logo da Cambar\u00e1 + Rua Arist\u00f3teles Carneiro, 147")]),
+  ("07", u"CAMBAR\u00c1 NO CAMBAR\u00c1",
+   u"Split na tela: de um lado a placa do bairro, do outro a fachada da loja \u2014 a mesma "
+   u"palavra nos dois quadros. O lettering empilha CAMBAR\u00c1 sobre CAMBAR\u00c1. "
+   u"Volta pra tela do WhatsApp, aparece \u201cdigitando\u2026\u201d e entra a resposta da "
+   u"equipe. Fecha em plano aberto da fachada com a assinatura \u2014 e a est\u00e1tua ainda "
+   u"parada l\u00e1 na cal\u00e7ada, no \u00faltimo quadro.",
+   [(AUD, u"Ah, e deixa claro que a Cambar\u00e1 fica no Cambar\u00e1 mesmo, viu? O bairro "
+          u"tamb\u00e9m chama Cambar\u00e1. A\u00ed n\u00e3o tem como errar."),
+    (AUD, u"Ficou bom assim?"),
+    (TELA, u"LOJA: CAMBAR\u00c1 / BAIRRO: CAMBAR\u00c1 / \u00e9 isso mesmo\n"
+           u"Resposta no chat: Ficou \u00f3tima, Weiza. J\u00e1 t\u00e1 no ar.\n"
+           u"Assinatura: logo da Cambar\u00e1 + Rua Arist\u00f3teles Carneiro, 147 \u2014 "
+           u"Bairro Cambar\u00e1")]),
  ], 2),
 ]
 
