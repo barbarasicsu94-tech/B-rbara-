@@ -22,7 +22,7 @@ PAGINAS = [
 
   ("02", u"",
    u"A edição obedece ao pé da letra: entram 2 segundos de um institucional "
-   u"caricato — imagem parada, fonte serifada, música de elevador, locução "
+   u"caricato, com imagem parada, fonte serifada, música de elevador e locução "
    u"metálica. Corta na hora com glitch e volta pra tela do WhatsApp.",
    [(AUD, u"Só que, por favor, nada daquela linguagem robótica, sabe? "
           u"“A Cambará está situada à rua tal, número tal…” Nada disso."),
@@ -30,13 +30,13 @@ PAGINAS = [
 
   ("03", u"",
    u"Balc\u00e3o da loja, com um cliente sendo atendido. O vendedor olha pra c\u00e2mera, "
-   u"d\u00e1 de ombros e faz o gesto \u2014 o jeitinho Cambar\u00e1. Congela no sorriso dele "
+   u"d\u00e1 de ombros e faz o gesto do jeitinho Cambar\u00e1. Congela no sorriso dele "
    u"e entra o carimbo na tela.",
    [(AUD, u"Eu quero algo bem humano. Quero algo bem jeitinho Cambar\u00e1."),
-    (TELA, u"JEITINHO CAMBAR\u00c1 \u2014 carimbo entrando sobre o congelado")]),
+    (TELA, u"JEITINHO CAMBAR\u00c1, carimbo entrando sobre o congelado")]),
 
   ("04", u"",
-   u"Drone gira em volta da fachada da Cambará. E gira. E gira de novo — o giro se "
+   u"Drone gira em volta da fachada da Cambará. E gira. E gira de novo. O giro se "
    u"estende de propósito, até passar do ponto. Alguém da equipe entra no quadro "
    u"fazendo sinal de “já deu”.",
    [(AUD, u"Ah, e bota um drone girando, que fica bonito!"),
@@ -60,7 +60,7 @@ PAGINAS = [
   ("07", u"",
    u"Split na tela: a placa do bairro de um lado, a fachada da loja do outro, com o lettering "
    u"empilhando CAMBAR\u00c1 sobre CAMBAR\u00c1. Volta pro WhatsApp com o \u201cdigitando\u2026\u201d "
-   u"e a resposta da equipe. Fecha na fachada com a assinatura \u2014 e a est\u00e1tua ainda "
+   u"e a resposta da equipe. Fecha na fachada com a assinatura, e a est\u00e1tua ainda "
    u"parada na cal\u00e7ada, no \u00faltimo quadro.",
    [(AUD, u"Ah, e deixa claro que a Cambar\u00e1 fica no Cambar\u00e1 mesmo, viu? O bairro "
           u"tamb\u00e9m chama Cambar\u00e1. A\u00ed n\u00e3o tem como errar."),
