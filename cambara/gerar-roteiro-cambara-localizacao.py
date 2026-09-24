@@ -28,11 +28,15 @@ PAGINAS = [
           u"“A Cambará está situada à rua tal, número tal…” Nada disso."),
     (TELA, u"não é isso aí")]),
 
-  ("03", u"LINGUAGEM HUMANA",
-   u"Corta pra vida real da loja: vendedor rindo, cliente sendo atendido no balcão, "
-   u"alguém carregando material, movimento nos corredores. Câmera na mão, "
-   u"luz natural, som ambiente real.",
-   [(AUD, u"Eu quero uma coisa humana, do jeito que a gente fala aqui todo dia.")]),
+  ("03", u"JEITINHO CAMBAR\u00c1",
+   u"Corta pra vida real da loja: cliente sendo atendido no balc\u00e3o, movimento nos "
+   u"corredores, algu\u00e9m carregando material. C\u00e2mera na m\u00e3o, luz natural, som "
+   u"ambiente. Do nada um vendedor entra no quadro, d\u00e1 de ombros, sorri e abre os "
+   u"bra\u00e7os \u2014 o jeitinho Cambar\u00e1 em pessoa. Congela no sorriso dele e entra "
+   u"o carimbo na tela.",
+   [(AUD, u"Eu quero uma coisa humana, do jeito que a gente fala aqui todo dia. "
+          u"Aquele jeitinho Cambar\u00e1, sabe?"),
+    (TELA, u"JEITINHO CAMBAR\u00c1 \u2014 carimbo entrando sobre o congelado")]),
 
   ("04", u"O DRONE",
    u"Drone gira em volta da fachada da Cambará. E gira. E gira de novo — o giro se "
@@ -42,10 +46,9 @@ PAGINAS = [
     (TELA, u"ela pediu")]),
 
   ("05", u"O ARIST\u00d3TELES",
-   u"Corte para a placa da rua: RUA ARIST\u00d3TELIS CARNEIRO. Em seguida, uma est\u00e1tua "
-   u"grega de m\u00e1rmore aparece plantada na cal\u00e7ada em frente \u00e0 loja \u2014 "
-   u"inser\u00e7\u00e3o em p\u00f3s, com entrada c\u00f4mica. Quem passa na rua ignora "
-   u"completamente a est\u00e1tua.",
+   u"Corte para a placa da rua: RUA ARIST\u00d3TELIS CARNEIRO. Em seguida, uma est\u00e1tua grega "
+   u"de m\u00e1rmore aparece plantada na cal\u00e7ada em frente \u00e0 loja, em inser\u00e7\u00e3o "
+   u"de p\u00f3s com entrada c\u00f4mica. Quem passa na rua ignora a est\u00e1tua.",
    [(AUD, u"E j\u00e1 que a rua chama Arist\u00f3telis Carneiro, bota uma est\u00e1tua do "
           u"Arist\u00f3teles ali na frente, pra ningu\u00e9m esquecer. Aquele deus grego, sabe?"),
     (TELA, u"fil\u00f3sofo, Weiza. ele era fil\u00f3sofo.")]),
@@ -58,11 +61,10 @@ PAGINAS = [
     (TELA, u"Rua Arist\u00f3telis Carneiro, 147 - Cambar\u00e1")]),
 
   ("07", u"CAMBAR\u00c1 NO CAMBAR\u00c1",
-   u"Split na tela: de um lado a placa do bairro, do outro a fachada da loja \u2014 a mesma "
-   u"palavra nos dois quadros. O lettering empilha CAMBAR\u00c1 sobre CAMBAR\u00c1. "
-   u"Volta pra tela do WhatsApp, aparece \u201cdigitando\u2026\u201d e entra a resposta da "
-   u"equipe. Fecha em plano aberto da fachada com a assinatura \u2014 e a est\u00e1tua ainda "
-   u"parada l\u00e1 na cal\u00e7ada, no \u00faltimo quadro.",
+   u"Split na tela: a placa do bairro de um lado, a fachada da loja do outro, com o lettering "
+   u"empilhando CAMBAR\u00c1 sobre CAMBAR\u00c1. Volta pro WhatsApp com o \u201cdigitando\u2026\u201d "
+   u"e a resposta da equipe. Fecha na fachada com a assinatura \u2014 e a est\u00e1tua ainda "
+   u"parada na cal\u00e7ada, no \u00faltimo quadro.",
    [(AUD, u"Ah, e deixa claro que a Cambar\u00e1 fica no Cambar\u00e1 mesmo, viu? O bairro "
           u"tamb\u00e9m chama Cambar\u00e1. A\u00ed n\u00e3o tem como errar."),
     (AUD, u"Ficou bom assim?"),
