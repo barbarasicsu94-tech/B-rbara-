@@ -10,7 +10,7 @@ PAGINAS = [
  (u"ROTEIRO — ANIVERSÁRIO DE RORAIMA | BV LOCADORA",
   u"até 30 segundos | 4 cenas", CLIENTE, [
   ("01", u"0s a 7s",
-   u"Imagem: Banco de imagens de Roraima, com destaque para a Ponte dos Macuxis ao pôr do sol, "
+   u"Imagem: Banco de imagens de Roraima, com destaque para a Ponte do Macuxi ao pôr do sol, "
    u"intercalando com outros recortes da cidade/estado.",
    [(u"OFF:", u"Roraima é feito de caminhos, histórias e de gente que segue sempre em frente.")]),
   ("02", u"7s a 14s",
