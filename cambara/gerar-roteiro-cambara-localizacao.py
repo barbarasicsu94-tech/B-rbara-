@@ -29,13 +29,10 @@ PAGINAS = [
     (TELA, u"não é isso aí")]),
 
   ("03", u"JEITINHO CAMBAR\u00c1",
-   u"Corta pra vida real da loja: cliente sendo atendido no balc\u00e3o, movimento nos "
-   u"corredores, algu\u00e9m carregando material. C\u00e2mera na m\u00e3o, luz natural, som "
-   u"ambiente. Do nada um vendedor entra no quadro, d\u00e1 de ombros, sorri e abre os "
-   u"bra\u00e7os \u2014 o jeitinho Cambar\u00e1 em pessoa. Congela no sorriso dele e entra "
-   u"o carimbo na tela.",
-   [(AUD, u"Eu quero uma coisa humana, do jeito que a gente fala aqui todo dia. "
-          u"Aquele jeitinho Cambar\u00e1, sabe?"),
+   u"Balc\u00e3o da loja, com um cliente sendo atendido. O vendedor olha pra c\u00e2mera, "
+   u"d\u00e1 de ombros e faz o gesto \u2014 o jeitinho Cambar\u00e1. Congela no sorriso dele "
+   u"e entra o carimbo na tela.",
+   [(AUD, u"Eu quero algo bem humano. Quero algo bem jeitinho Cambar\u00e1."),
     (TELA, u"JEITINHO CAMBAR\u00c1 \u2014 carimbo entrando sobre o congelado")]),
 
   ("04", u"O DRONE",
