@@ -42,11 +42,11 @@ PAGINAS = [
     (TELA, u"ela pediu")]),
 
   ("05", u"O ARIST\u00d3TELES",
-   u"Corte para a placa da rua: RUA ARIST\u00d3TELES CARNEIRO. Em seguida, uma est\u00e1tua "
+   u"Corte para a placa da rua: RUA ARIST\u00d3TELIS CARNEIRO. Em seguida, uma est\u00e1tua "
    u"grega de m\u00e1rmore aparece plantada na cal\u00e7ada em frente \u00e0 loja \u2014 "
    u"inser\u00e7\u00e3o em p\u00f3s, com entrada c\u00f4mica. Quem passa na rua ignora "
    u"completamente a est\u00e1tua.",
-   [(AUD, u"E j\u00e1 que a rua chama Arist\u00f3teles Carneiro, bota uma est\u00e1tua do "
+   [(AUD, u"E j\u00e1 que a rua chama Arist\u00f3telis Carneiro, bota uma est\u00e1tua do "
           u"Arist\u00f3teles ali na frente, pra ningu\u00e9m esquecer. Aquele deus grego, sabe?"),
     (TELA, u"fil\u00f3sofo, Weiza. ele era fil\u00f3sofo.")]),
 
@@ -55,7 +55,7 @@ PAGINAS = [
    u"da cidade, o caminho at\u00e9 a loja, a placa da rua e a fachada da Cambar\u00e1. Setas e "
    u"lettering marcando o trajeto. A est\u00e1tua segue ali, discreta, no canto do quadro.",
    [(AUD, u"Mas n\u00e3o esquece de falar o endere\u00e7o certinho, viu?"),
-    (TELA, u"Rua Arist\u00f3teles Carneiro, 147 \u2014 Bairro Cambar\u00e1")]),
+    (TELA, u"Rua Arist\u00f3telis Carneiro, 147 - Cambar\u00e1")]),
 
   ("07", u"CAMBAR\u00c1 NO CAMBAR\u00c1",
    u"Split na tela: de um lado a placa do bairro, do outro a fachada da loja \u2014 a mesma "
@@ -68,8 +68,8 @@ PAGINAS = [
     (AUD, u"Ficou bom assim?"),
     (TELA, u"LOJA: CAMBAR\u00c1 / BAIRRO: CAMBAR\u00c1 / \u00e9 isso mesmo\n"
            u"Resposta no chat: Ficou \u00f3tima, Weiza. J\u00e1 t\u00e1 no ar.\n"
-           u"Assinatura: logo da Cambar\u00e1 + Rua Arist\u00f3teles Carneiro, 147 \u2014 "
-           u"Bairro Cambar\u00e1")]),
+           u"Assinatura: logo da Cambar\u00e1 + Rua Arist\u00f3telis Carneiro, "
+           u"147 - Cambar\u00e1")]),
  ], 2),
 ]
 
