@@ -9,7 +9,7 @@ AUD = u"ÁUDIO (WEIZA):"
 TELA = u"TEXTO NA TELA:"
 
 PAGINAS = [
- (u"ROTEIRO CAMBARÁ — LOCALIZAÇÃO", u"Vertical | até 45 segundos", CLIENTE, [
+ (u"ROTEIRO CAMBARÁ — LOCALIZAÇÃO", u"Vertical | até 50 segundos", CLIENTE, [
 
   ("01", u"CHEGOU ÁUDIO",
    u"Gravação de tela real do celular. Conversa do WhatsApp aberta, contato “Weiza” "
@@ -41,20 +41,30 @@ PAGINAS = [
    [(AUD, u"Ah, e bota um drone girando, que fica bonito!"),
     (TELA, u"ela pediu")]),
 
-  ("05", u"A LOCALIZAÇÃO",
-   u"A edição fica séria por alguns segundos: ponto de referência conhecido da "
-   u"cidade, o caminho até a loja, placa da rua e a fachada da Cambará. Setas e "
-   u"lettering marcando o trajeto.",
-   [(AUD, u"Mas não esquece de falar onde a gente fica, viu?"),
-    (TELA, u"[ENDEREÇO DA CAMBARÁ — rua, número e bairro a confirmar]")]),
+  ("05", u"O ARIST\u00d3TELES",
+   u"Corte para a placa da rua: RUA ARIST\u00d3TELES CARNEIRO. Em seguida, uma est\u00e1tua "
+   u"grega de m\u00e1rmore aparece plantada na cal\u00e7ada em frente \u00e0 loja \u2014 "
+   u"inser\u00e7\u00e3o em p\u00f3s, com entrada c\u00f4mica. Quem passa na rua ignora "
+   u"completamente a est\u00e1tua.",
+   [(AUD, u"E j\u00e1 que a rua chama Arist\u00f3teles Carneiro, bota uma est\u00e1tua do "
+          u"Arist\u00f3teles ali na frente, pra ningu\u00e9m esquecer. Aquele deus grego, sabe?"),
+    (TELA, u"fil\u00f3sofo, Weiza. ele era fil\u00f3sofo.")]),
 
-  ("06", u"FECHAMENTO",
-   u"Volta pra tela do WhatsApp. Aparece “digitando…” e entra a resposta da equipe. "
-   u"Corta para plano aberto da fachada e assinatura da Cambará com o endereço.",
+  ("06", u"A LOCALIZA\u00c7\u00c3O",
+   u"A edi\u00e7\u00e3o fica s\u00e9ria por alguns segundos: ponto de refer\u00eancia conhecido "
+   u"da cidade, o caminho at\u00e9 a loja, a placa da rua e a fachada da Cambar\u00e1. Setas e "
+   u"lettering marcando o trajeto. A est\u00e1tua segue ali, discreta, no canto do quadro.",
+   [(AUD, u"Mas n\u00e3o esquece de falar o endere\u00e7o certinho, viu?"),
+    (TELA, u"Rua Arist\u00f3teles Carneiro, 147 \u2014 Cambar\u00e1")]),
+
+  ("07", u"FECHAMENTO",
+   u"Volta pra tela do WhatsApp. Aparece \u201cdigitando\u2026\u201d e entra a resposta da "
+   u"equipe. Corta para plano aberto da fachada com a assinatura da Cambar\u00e1 \u2014 e a "
+   u"est\u00e1tua ainda parada l\u00e1 na cal\u00e7ada, no \u00faltimo quadro.",
    [(AUD, u"Ficou bom assim?"),
-    (TELA, u"Resposta no chat: Ficou ótima, Weiza. Já tá no ar.\n"
-           u"Assinatura: logo da Cambará + endereço")]),
- ], True),
+    (TELA, u"Resposta no chat: Ficou \u00f3tima, Weiza. J\u00e1 t\u00e1 no ar.\n"
+           u"Assinatura: logo da Cambar\u00e1 + Rua Arist\u00f3teles Carneiro, 147")]),
+ ], 2),
 ]
 
 montar(PAGINAS, u"Roteiro de Gravação — Cambará | Localização",

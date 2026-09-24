@@ -49,6 +49,11 @@ td.n { text-align:center; font-size:11.04pt; }
 .page.compacta td { font-size:8.2pt; line-height:1.26; }
 .page.compacta th, .page.compacta td { padding:2.6pt 5.1pt; }
 .page.compacta .lbl { font-size:9.2pt; margin-bottom:2pt; }
+.page.densa td { font-size:7.5pt; line-height:1.22; }
+.page.densa th { font-size:10pt; height:20pt; }
+.page.densa th, .page.densa td { padding:2pt 4.4pt; }
+.page.densa .lbl { font-size:8.6pt; margin-bottom:1.6pt; }
+.page.densa .ln { margin-bottom:2pt; }
 .ln  { margin-bottom:3pt; }
 .ln:last-child { margin-bottom:0; }
 """
@@ -81,7 +86,7 @@ def pagina(titulo, formato, cliente, cenas, compacta=False):
       %s
     </table>
   </div>
-</div>""" % (" compacta" if compacta else "", HDR, FTR, _txt(titulo), _txt(formato), _txt(cliente),
+</div>""" % ({1:" compacta",2:" densa"}.get(compacta, " compacta" if compacta else ""), HDR, FTR, _txt(titulo), _txt(formato), _txt(cliente),
              "\n      ".join(linhas))
 
 def montar(paginas, titulo_doc, saida):
