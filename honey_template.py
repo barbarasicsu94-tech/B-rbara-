@@ -61,7 +61,7 @@ td.n { text-align:center; font-size:11.04pt; }
 def _txt(s):
     return html.escape(s).replace("\n", "<br>")
 
-def pagina(titulo, formato, cliente, cenas, compacta=False):
+def pagina(titulo, formato, cliente, cenas, compacta=False, tema=None):
     linhas = []
     for n, lbl, desc, falas in cenas:
         fal = "".join('<div class="ln"><span class="tag">%s</span> %s</div>'
@@ -77,7 +77,7 @@ def pagina(titulo, formato, cliente, cenas, compacta=False):
     <div class="t1">ROTEIRO DE</div>
     <div class="t2">GRAVAÇÃO</div>
     <div class="sub">%s</div>
-    <div class="fmt"><b>Formato:</b> %s | <b>Cliente:</b> %s</div>
+    <div class="fmt"><b>Formato:</b> %s | <b>Cliente:</b> %s</div>%s
     <div class="chk">CHECKLIST GRAVAÇÃO</div>
     <div class="chki">Foto Capa | Off | Bastidores</div>
     <table>
@@ -87,6 +87,7 @@ def pagina(titulo, formato, cliente, cenas, compacta=False):
     </table>
   </div>
 </div>""" % ({1:" compacta",2:" densa"}.get(compacta, " compacta" if compacta else ""), HDR, FTR, _txt(titulo), _txt(formato), _txt(cliente),
+             ('\n    <div class="fmt"><b>Tema:</b> %s</div>' % _txt(tema)) if tema else "",
              "\n      ".join(linhas))
 
 def montar(paginas, titulo_doc, saida):
