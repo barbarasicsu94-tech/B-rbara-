@@ -10,7 +10,7 @@ PAGINAS = [
  (u"ROTEIRO | 3 MOTIVOS PARA NÃO IR À MARINA EVOLUTION",
   u"Vertical | 30–40s", CLIENTE, [
 
-  ("01", u"GANCHO",
+  ("01", u"",
    u"Pessoa caminhando pela Marina e falando diretamente para a câmera.",
    [(u"ON:", u"Não venha pra Marina Evolution hoje. E eu tenho 3 motivos pra isso."),
     (u"LETTERING:", u"3 MOTIVOS PARA NÃO IR À MARINA EVOLUTION")]),
