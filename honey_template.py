@@ -38,6 +38,8 @@ body { font-family:"Liberation Sans",Arial,Helvetica,sans-serif; color:#000;
 .fmt b { font-weight:bold; }
 .chk { margin:16pt 0 0 72.02pt; font-size:9.96pt; font-weight:bold; color:#42067E; }
 .chki{ margin:3.5pt 0 0 108pt; font-size:9.96pt; color:#42067E; }
+.btit { margin:13pt 0 0 72.02pt; font-size:9.96pt; font-weight:bold; color:#42067E; }
+.btxt { margin:3pt 108pt 0 108pt; font-size:9.2pt; color:#000; text-align:justify; }
 table { margin:16pt 0 0 49.92pt; width:496.56pt; border-collapse:collapse; table-layout:fixed; }
 col.c1 { width:49.46pt; } col.c2 { width:177.39pt; } col.c3 { width:269.71pt; }
 th,td { border:0.48pt solid #A6A6A6; vertical-align:middle; padding:4pt 5.1pt; }
@@ -61,7 +63,7 @@ td.n { text-align:center; font-size:11.04pt; }
 def _txt(s):
     return html.escape(s).replace("\n", "<br>")
 
-def pagina(titulo, formato, cliente, cenas, compacta=False, tema=None):
+def pagina(titulo, formato, cliente, cenas, compacta=False, tema=None, blocos=None):
     linhas = []
     for n, lbl, desc, falas in cenas:
         fal = "".join('<div class="ln"><span class="tag">%s</span> %s</div>'
@@ -77,7 +79,7 @@ def pagina(titulo, formato, cliente, cenas, compacta=False, tema=None):
     <div class="t1">ROTEIRO DE</div>
     <div class="t2">GRAVAÇÃO</div>
     <div class="sub">%s</div>
-    <div class="fmt"><b>Formato:</b> %s | <b>Cliente:</b> %s</div>%s
+    <div class="fmt"><b>Formato:</b> %s | <b>Cliente:</b> %s</div>%s%s
     <div class="chk">CHECKLIST GRAVAÇÃO</div>
     <div class="chki">Foto Capa | Off | Bastidores</div>
     <table>
@@ -88,6 +90,8 @@ def pagina(titulo, formato, cliente, cenas, compacta=False, tema=None):
   </div>
 </div>""" % ({1:" compacta",2:" densa"}.get(compacta, " compacta" if compacta else ""), HDR, FTR, _txt(titulo), _txt(formato), _txt(cliente),
              ('\n    <div class="fmt"><b>Tema:</b> %s</div>' % _txt(tema)) if tema else "",
+             "".join('\n    <div class="btit">%s</div>\n    <div class="btxt">%s</div>'
+                     % (_txt(t), _txt(x)) for t, x in (blocos or [])),
              "\n      ".join(linhas))
 
 def montar(paginas, titulo_doc, saida):
