@@ -27,8 +27,8 @@ PAGINAS = [
    u"Personagem apresenta um veículo maior, como um SUV, e em seguida uma picape. "
    u"Intercalar com imagens em OFF dos veículos.",
    [(u"(ON/OFF):", u"Agora, se você precisa de mais espaço e conforto, temos "
-                   u"opções maiores. E pra quem precisa de força e capacidade de "
-                   u"transporte, uma picape pode ser a escolha ideal!"),
+                   u"opções maiores. E para quem precisa de força e capacidade "
+                   u"de transporte, uma picape pode ser a escolha certa."),
     (u"LETTERING:", u"Mais espaço. Mais possibilidades.")]),
 
   ("04", u"",
