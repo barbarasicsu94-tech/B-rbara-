@@ -89,7 +89,9 @@ def pagina(titulo, formato, cliente, cenas, compacta=False, tema=None, blocos=No
     </table>
   </div>
 </div>""" % ({1:" compacta",2:" densa"}.get(compacta, " compacta" if compacta else ""), HDR, FTR, _txt(titulo), _txt(formato), _txt(cliente),
-             ('\n    <div class="fmt"><b>Tema:</b> %s</div>' % _txt(tema)) if tema else "",
+             (('\n    <div class="fmt"><b>%s:</b> %s</div>'
+               % ((_txt(tema[0]), _txt(tema[1])) if isinstance(tema, (tuple, list))
+                  else ("Tema", _txt(tema)))) if tema else ""),
              "".join('\n    <div class="btit">%s</div>\n    <div class="btxt">%s</div>'
                      % (_txt(t), _txt(x)) for t, x in (blocos or [])),
              "\n      ".join(linhas))
