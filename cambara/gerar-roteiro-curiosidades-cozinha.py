@@ -12,11 +12,11 @@ PAGINAS = [
 
   ("01", u"",
    u"Personagem de costas, organizando o armário da cozinha, e guardando ali uma lata de "
-   u"tinta no meio dos itens — algo fora de lugar, que prende a atenção. Fecha a "
+   u"tinta no meio dos itens, algo fora de lugar, que prende a atenção. Fecha a "
    u"porta, vira e olha para a câmera para emendar a segunda metade da fala.",
    [(u"OFF:", u"Você usa sua cozinha todos os dias,"),
     (u"ON:", u"mas tem três coisas sobre ela que talvez você nunca tenha imaginado."),
-    (u"LETTERING:", u"3 coisas que você talvez não sabia sobre sua cozinha \U0001F440")]),
+    (u"LETTERING:", u"3 coisas que você talvez não sabia sobre sua cozinha")]),
 
   ("02", u"",
    u"Personagem em cena, intercalando com imagens de apoio, grafismos e detalhes da cozinha.\n"
