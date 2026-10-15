@@ -18,19 +18,18 @@ PAGINAS = [
                u"trabalhar?")]),
 
   ("02", u"",
-   u"Personagem segue no escritório. Apoio: chuva caindo, moto parada coberta e a entrada "
-   u"do shopping.",
+   u"Personagem segue no escritório. Apoio: chuva caindo e alguém em cima da moto.",
    [(u"(ON/OFF):", u"Você quer ir pro shopping, está chovendo e você só tem "
                    u"moto?")]),
 
   ("03", u"",
-   u"Personagem no escritório. Apoio: mala sendo fechada, bagageiro do carro e estrada "
-   u"aberta.",
+   u"Personagem no escritório. Apoio: mala entrando no porta-malas e o porta-malas sendo "
+   u"fechado.",
    [(u"(ON/OFF):", u"Você precisa viajar e necessita de um veículo?")]),
 
   ("04", u"",
-   u"Personagem no escritório. Apoio: família chegando e cumprimentos, depois pontos "
-   u"conhecidos da cidade vistos de dentro do carro.",
+   u"Personagem no escritório. Apoio: pontos da cidade. IMAGENS JÁ CAPTADAS, "
+   u"disponíveis no arquivo.",
    [(u"(ON/OFF):", u"Sua família veio te visitar e você quer turistar na cidade?")]),
 
   ("05", u"",
