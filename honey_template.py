@@ -40,6 +40,12 @@ body { font-family:"Liberation Sans",Arial,Helvetica,sans-serif; color:#000;
 .chki{ margin:3.5pt 0 0 108pt; font-size:9.96pt; color:#42067E; }
 .btit { margin:13pt 0 0 72.02pt; font-size:9.96pt; font-weight:bold; color:#42067E; }
 .btxt { margin:3pt 108pt 0 108pt; font-size:9.2pt; color:#000; text-align:justify; }
+.refs { margin:12pt 0 0 49.92pt; width:496.56pt; display:flex; gap:12pt; align-items:flex-start; }
+.ref img { display:block; height:130pt; width:auto; border:0.6pt solid #A6A6A6; }
+.ref p { margin-top:4pt; font-size:7.4pt; line-height:1.28; width:130pt; }
+.ref b { color:#FF7502; }
+.refn { flex:1; font-size:8.4pt; line-height:1.35; }
+.refn b { color:#42067E; }
 table { margin:16pt 0 0 49.92pt; width:496.56pt; border-collapse:collapse; table-layout:fixed; }
 col.c1 { width:49.46pt; } col.c2 { width:177.39pt; } col.c3 { width:269.71pt; }
 th,td { border:0.48pt solid #A6A6A6; vertical-align:middle; padding:4pt 5.1pt; }
@@ -63,7 +69,8 @@ td.n { text-align:center; font-size:11.04pt; }
 def _txt(s):
     return html.escape(s).replace("\n", "<br>")
 
-def pagina(titulo, formato, cliente, cenas, compacta=False, tema=None, blocos=None):
+def pagina(titulo, formato, cliente, cenas, compacta=False, tema=None, blocos=None,
+           cabecalhos=None, topo=None, titulo_doc=None, checklist=True):
     linhas = []
     for n, lbl, desc, falas in cenas:
         fal = "".join('<div class="ln"><span class="tag">%s</span> %s</div>'
@@ -76,25 +83,31 @@ def pagina(titulo, formato, cliente, cenas, compacta=False, tema=None, blocos=No
   <img class="hdr" src="data:image/png;base64,%s">
   <img class="ftr" src="data:image/png;base64,%s">
   <div class="body">
-    <div class="t1">ROTEIRO DE</div>
-    <div class="t2">GRAVAÇÃO</div>
+    <div class="t1">%s</div>
+    <div class="t2">%s</div>
     <div class="sub">%s</div>
     <div class="fmt"><b>Formato:</b> %s | <b>Cliente:</b> %s</div>%s%s
-    <div class="chk">CHECKLIST GRAVAÇÃO</div>
-    <div class="chki">Foto Capa | Off | Bastidores</div>
+%s%s
     <table>
       <colgroup><col class="c1"><col class="c2"><col class="c3"></colgroup>
-      <tr><th>CENA</th><th>DESCRIÇÃO DA CENA</th><th>TEXTO | ON | OFF</th></tr>
+      <tr><th>%s</th><th>%s</th><th>%s</th></tr>
       %s
     </table>
   </div>
-</div>""" % ({1:" compacta",2:" densa"}.get(compacta, " compacta" if compacta else ""), HDR, FTR, _txt(titulo), _txt(formato), _txt(cliente),
+</div>""" % ({1:" compacta",2:" densa"}.get(compacta, " compacta" if compacta else ""), HDR, FTR,
+             (titulo_doc or ("ROTEIRO DE", "GRAVA\u00c7\u00c3O"))[0],
+             (titulo_doc or ("ROTEIRO DE", "GRAVA\u00c7\u00c3O"))[1], _txt(titulo), _txt(formato), _txt(cliente),
              (('\n    <div class="fmt"><b>%s:</b> %s</div>'
                % ((_txt(tema[0]), _txt(tema[1])) if isinstance(tema, (tuple, list))
                   else ("Tema", _txt(tema)))) if tema else ""),
              "".join('\n    <div class="btit">%s</div>\n    <div class="btxt">%s</div>'
                      % (_txt(t), _txt(x)) for t, x in (blocos or [])),
-             "\n      ".join(linhas))
+             ('\n    <div class="chk">CHECKLIST GRAVA\u00c7\u00c3O</div>'
+              '\n    <div class="chki">Foto Capa | Off | Bastidores</div>') if checklist else "",
+             topo or "",
+             *( [ _txt(c) for c in (cabecalhos or (u"CENA", u"DESCRI\u00c7\u00c3O DA CENA",
+                                                   u"TEXTO | ON | OFF")) ]
+                + ["\n      ".join(linhas)] ))
 
 def montar(paginas, titulo_doc, saida):
     doc = ("<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'>"
