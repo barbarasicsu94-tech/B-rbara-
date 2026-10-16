@@ -20,8 +20,9 @@ PAGINAS = [
   ("01", u"",
    u"Personagem posicionada próxima a um jet ou lancha, olhando diretamente para a "
    u"câmera. Manter o enquadramento na personagem durante toda a fala, sem cortes de apoio.",
-   [(u"ON:", u"Cansado de ficar indo e voltando com seu jet ou sua lancha? Eu sei, dá "
-             u"trabalho, toma tempo e acaba virando uma preocupação, né?")]),
+   [(u"ON:", u"Cansado de ficar carregando o seu jet ou sua lancha pra lá e pra cá? "
+             u"Eu sei, dá trabalho, toma tempo e acaba virando uma "
+             u"preocupação, né?")]),
 
   ("02", u"",
    u"Personagem na área de guarda da Marina, apresentando o espaço. Intercalar com "
