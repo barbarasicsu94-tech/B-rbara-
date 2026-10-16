@@ -24,9 +24,7 @@ PAGINAS = [
     (u"LETTERING:", u"Seu próximo evento pode ser aqui!")]),
 
   ("02", u"",
-   u"Imagens de apoio de eventos já realizados na Marina Evolution, mostrando "
-   u"confraternizações, aniversários, pessoas reunidas, decoração e "
-   u"momentos de celebração.",
+   u"Imagens de apoio de eventos já realizados na Marina Evolution.",
    [(u"OFF:", u"Aqui na Marina Evolution, você encontra um ambiente diferente para reunir "
               u"pessoas, comemorar momentos especiais e sair do tradicional."),
     (u"LETTERING:", u"Um espaço para momentos especiais.")]),
