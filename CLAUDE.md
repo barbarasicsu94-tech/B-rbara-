@@ -28,5 +28,5 @@ Clientes atendidos pela Bárbara (Pixel Agência):
   - Antes de criar, verificar se já existe um card vazio com o mesmo número abaixo da
     etiqueta do cliente (ex.: "EVOLUTION MARINA | CARD 03"); se existir, preencher esse card.
 - Luiz atende: Campeão Express e BV Locadora. No Trello ele é "Luix Santos" (@luixsantoss).
-  Marcar com comentário "@luixsantoss" nos cards novos dele (a ferramenta não adiciona membro).
+  NÃO marcar designer por comentário: a Bárbara adiciona o membro manualmente no card.
 - Mateus atende: Visual Tintas, Evolution PowerSports, Evolution Marina e Tropical Multimarcas.
