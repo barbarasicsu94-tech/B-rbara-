@@ -22,6 +22,8 @@ Clientes atendidos pela Bárbara (Pixel Agência):
   BV Locadora é azul). Esse card funciona como "etiqueta" do cliente: os cards de demanda
   desse cliente ficam logo abaixo dele, na ordem CARD 01, CARD 02...
 - Card de demanda: nome "CLIENTE | CARD 0X - TÍTULO"; descrição com Formato, Objetivo,
-  Proposta, Copy, Legenda e Material (a imagem é anexada pela Bárbara).
+  Proposta, Copy e Material (a imagem é anexada pela Bárbara).
+  - Copy sem emojis.
+  - A legenda da postagem NÃO vai na descrição: vai num comentário do card ("LEGENDA:").
 - Luiz atende: Campeão Express e BV Locadora.
 - Mateus atende: Visual Tintas, Evolution PowerSports, Evolution Marina e Tropical Multimarcas.
