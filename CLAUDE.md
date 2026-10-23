@@ -18,3 +18,4 @@ Clientes atendidos pela Bárbara (Pixel Agência):
   O quadro não tem etiquetas com nome de cliente; as etiquetas são de status.
 - Nossos designers: Luiz e Mateus. Os cards deles ficam nas listas
   "CRIAÇÃO LUIZ" e "CRIAÇÃO MATEUS" (e nas listas de APROVAÇÃO/ALTERAÇÃO com o nome deles).
+- Luiz atende: Campeão Express e BV Locadora.
