@@ -25,6 +25,8 @@ Clientes atendidos pela Bárbara (Pixel Agência):
   Proposta, Copy e Material (a imagem é anexada pela Bárbara).
   - Copy sem emojis.
   - A legenda da postagem NÃO vai na descrição: vai num comentário do card ("LEGENDA:").
+  - Antes de criar, verificar se já existe um card vazio com o mesmo número abaixo da
+    etiqueta do cliente (ex.: "EVOLUTION MARINA | CARD 03"); se existir, preencher esse card.
 - Luiz atende: Campeão Express e BV Locadora. No Trello ele é "Luix Santos" (@luixsantoss).
   Marcar com comentário "@luixsantoss" nos cards novos dele (a ferramenta não adiciona membro).
 - Mateus atende: Visual Tintas, Evolution PowerSports, Evolution Marina e Tropical Multimarcas.
