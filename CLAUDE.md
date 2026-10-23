@@ -25,5 +25,6 @@ Clientes atendidos pela Bárbara (Pixel Agência):
   Proposta, Copy e Material (a imagem é anexada pela Bárbara).
   - Copy sem emojis.
   - A legenda da postagem NÃO vai na descrição: vai num comentário do card ("LEGENDA:").
-- Luiz atende: Campeão Express e BV Locadora.
+- Luiz atende: Campeão Express e BV Locadora. No Trello ele é "Luix Santos" (@luixsantoss).
+  Marcar com comentário "@luixsantoss" nos cards novos dele (a ferramenta não adiciona membro).
 - Mateus atende: Visual Tintas, Evolution PowerSports, Evolution Marina e Tropical Multimarcas.
