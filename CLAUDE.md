@@ -19,3 +19,4 @@ Clientes atendidos pela Bárbara (Pixel Agência):
 - Nossos designers: Luiz e Mateus. Os cards deles ficam nas listas
   "CRIAÇÃO LUIZ" e "CRIAÇÃO MATEUS" (e nas listas de APROVAÇÃO/ALTERAÇÃO com o nome deles).
 - Luiz atende: Campeão Express e BV Locadora.
+- Mateus atende: Visual Tintas, Evolution PowerSports, Evolution Marina e Tropical Multimarcas.
