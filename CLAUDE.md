@@ -30,3 +30,8 @@ Clientes atendidos pela Bárbara (Pixel Agência):
 - Luiz atende: Campeão Express e BV Locadora. No Trello ele é "Luix Santos" (@luixsantoss).
   NÃO marcar designer por comentário: a Bárbara adiciona o membro manualmente no card.
 - Mateus atende: Visual Tintas, Evolution PowerSports, Evolution Marina e Tropical Multimarcas.
+
+## Contatos dos clientes
+
+- Evolution PowerSports: (95) 99123-1001 · Av. Mário Homem de Melo, 2127 - Mecejana
+- Marina Evolution: (95) 99152-1001 · Rua Marina do Rio Branco, 214 - Canarinho
