@@ -27,9 +27,11 @@ Clientes atendidos pela Bárbara (Pixel Agência):
   - A legenda da postagem NÃO vai na descrição: vai num comentário do card ("LEGENDA:").
   - Antes de criar, verificar se já existe um card vazio com o mesmo número abaixo da
     etiqueta do cliente (ex.: "EVOLUTION MARINA | CARD 03"); se existir, preencher esse card.
-- Luiz atende: Campeão Express e BV Locadora. No Trello ele é "Luix Santos" (@luixsantoss).
+- Luiz atende: Campeão Express, BV Locadora e, a partir de novembro/2026, Tropical Multimarcas.
+  No Trello ele é "Luix Santos" (@luixsantoss).
   NÃO marcar designer por comentário: a Bárbara adiciona o membro manualmente no card.
-- Mateus atende: Visual Tintas, Evolution PowerSports, Evolution Marina e Tropical Multimarcas.
+- Mateus atende: Visual Tintas, Evolution PowerSports e Evolution Marina (Tropical Multimarcas
+  foi dele até outubro/2026; os cards antigos da Tropical continuam na lista dele).
 
 ## Contatos dos clientes
 
