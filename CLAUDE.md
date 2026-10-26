@@ -32,6 +32,10 @@ Clientes atendidos pela Bárbara (Pixel Agência):
   NÃO marcar designer por comentário: a Bárbara adiciona o membro manualmente no card.
 - Mateus atende: Visual Tintas, Evolution PowerSports e Evolution Marina (Tropical Multimarcas
   foi dele até outubro/2026; os cards antigos da Tropical continuam na lista dele).
+- Tropical: carrossel de carro e carrossel de clientes são PADRONIZADOS (padrão de out/2026).
+  Carro: um carro por carrossel; só a capa tem copy (chamada + modelo/ano + valor), o resto
+  são fotos orgânicas do carro. Clientes: capa com frase, o resto são fotos orgânicas dos clientes.
+- Não mexer em cards que já existem no quadro, a não ser que a Bárbara peça.
 
 ## Contatos dos clientes
 
