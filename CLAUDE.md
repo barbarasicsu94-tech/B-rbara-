@@ -39,5 +39,5 @@ Clientes atendidos pela Bárbara (Pixel Agência):
 
 ## Contatos dos clientes
 
-- Evolution PowerSports: (95) 99123-1001 · Av. Mário Homem de Melo, 2127 - Mecejana
+- Evolution Powersports (escrever com "s" minúsculo em copy e legenda): (95) 99123-1001 · Av. Mário Homem de Melo, 2127 - Mecejana
 - Marina Evolution: (95) 99152-1001 · Rua Marina do Rio Branco, 214 - Canarinho
